@@ -135,6 +135,7 @@
   .first-curt p{
     margin: 10px auto;
     max-width: 300px;
+    text-align: center;
   }
 
   .curt-list{
@@ -199,7 +200,7 @@
   }
 
   .right-content p{
-    padding-right: 30px;
+    padding-right: 40px;
   }
 
   .consult-logo{
@@ -218,3 +219,47 @@
     font-weight: 500;
     cursor: pointer;
   } 
+
+
+  /* <!-- footer saction --> */
+
+  .footer{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    justify-content: space-evenly;
+    padding: 40px;
+    margin-top: -54px;
+  }
+
+  .first-section{
+    max-width: 400px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .first-section span{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+
+  .input-field{
+    padding: 10px;
+  }
+
+  .input-field h2{
+    color: orange;
+  }
+
+  .input-field input{
+    height: 30px;
+    width: 250px;
+    background-color: #555;
+    color: azure;
+  }
+
+  .last-sectino span{
+    color: orange;
+  }
+
